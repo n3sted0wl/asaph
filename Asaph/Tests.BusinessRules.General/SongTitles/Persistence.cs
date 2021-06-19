@@ -25,6 +25,14 @@ namespace Asaph.Tests.BusinessRules.General.SongTitles {
             SongTitle fourthSongTitle = songTitlesFactory.Builder().Build("Fourth Song Title");
             SongTitle fifthSongTitle  = songTitlesFactory.Builder().Build("Fifth Song Title");
             SongTitle sixthSongTitle  = songTitlesFactory.Builder().Build("Sixth Song Title");
+            List<SongTitle> allSongTitlesToTest = new() {
+                firstSongTitle ,
+                secondSongTitle,
+                thirdSongTitle ,
+                fourthSongTitle,
+                fifthSongTitle ,
+                sixthSongTitle ,
+            };
             Assert.NotEqual(firstSongTitle.RecordId, secondSongTitle.RecordId);
 
             // Write
@@ -55,15 +63,7 @@ namespace Asaph.Tests.BusinessRules.General.SongTitles {
             Assert.Empty(failedBatchSaveResults);
 
             // Read
-            List<Guid> songTitleRecordIds =
-                new() {
-                    firstSongTitle.RecordId,
-                    secondSongTitle.RecordId,
-                    thirdSongTitle.RecordId,
-                    fourthSongTitle.RecordId,
-                    fifthSongTitle.RecordId,
-                    sixthSongTitle.RecordId,
-                };
+            List<Guid> songTitleRecordIds = allSongTitlesToTest.Select(title => title.RecordId).ToList();
             Task<AsaphOperationResult<IEnumerable<SongTitle>>> readResultTask =
                 songTitlesFactory
                 .Reader()
