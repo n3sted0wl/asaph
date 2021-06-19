@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vjOoulhFrSSZbOeJbJSFFGT4W3JnetI9i+fIKiPt/ZAvJlDRvg8N7FxAclJAU1YRSqWZkLFm93WfZrpatN4r+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.DependencyInjector.BusinessRules\\Implementation.DependencyInjector.BusinessRules.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

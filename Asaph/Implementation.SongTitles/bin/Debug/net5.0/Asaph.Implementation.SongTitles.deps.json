@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Asaph.Implementation.SongTitles/1.0.0": {
+        "dependencies": {
+          "Asaph.InterfaceLibrary.BusinessRules": "1.0.0"
+        },
+        "runtime": {
+          "Asaph.Implementation.SongTitles.dll": {}
+        }
+      },
+      "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
+        "runtime": {
+          "Asaph.InterfaceLibrary.BusinessRules.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Asaph.Implementation.SongTitles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

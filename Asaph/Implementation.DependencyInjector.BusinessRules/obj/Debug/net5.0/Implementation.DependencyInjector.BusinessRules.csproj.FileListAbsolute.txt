@@ -1,0 +1,17 @@
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Implementation.DependencyInjector.BusinessRules.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Implementation.DependencyInjector.BusinessRules.AssemblyInfoInputs.cache
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Implementation.DependencyInjector.BusinessRules.AssemblyInfo.cs
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Implementation.DependencyInjector.BusinessRules.csproj.CoreCompileInputs.cache
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\Asaph.Implementation.DependencyInjector.BusinessRules.deps.json
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\Asaph.Implementation.DependencyInjector.BusinessRules.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\ref\Asaph.Implementation.DependencyInjector.BusinessRules.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\Asaph.Implementation.DependencyInjector.BusinessRules.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\Asaph.Implementation.SongTitles.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\Asaph.InterfaceLibrary.BusinessRules.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\Asaph.Implementation.SongTitles.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\Asaph.InterfaceLibrary.BusinessRules.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Implementation.DependencyInjector.BusinessRules.csproj.AssemblyReference.cache
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Implementation.DependencyInjector.BusinessRules.csproj.CopyComplete
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Asaph.Implementation.DependencyInjector.BusinessRules.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\ref\Asaph.Implementation.DependencyInjector.BusinessRules.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Asaph.Implementation.DependencyInjector.BusinessRules.pdb

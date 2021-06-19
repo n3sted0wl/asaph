@@ -1,0 +1,12 @@
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\bin\Debug\net5.0\Asaph.InterfaceLibrary.BusinessRules.deps.json
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\bin\Debug\net5.0\Asaph.InterfaceLibrary.BusinessRules.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\bin\Debug\net5.0\ref\Asaph.InterfaceLibrary.BusinessRules.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\bin\Debug\net5.0\Asaph.InterfaceLibrary.BusinessRules.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\obj\Debug\net5.0\InterfaceLibrary.BusinessRules.csproj.AssemblyReference.cache
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\obj\Debug\net5.0\InterfaceLibrary.BusinessRules.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\obj\Debug\net5.0\InterfaceLibrary.BusinessRules.AssemblyInfoInputs.cache
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\obj\Debug\net5.0\InterfaceLibrary.BusinessRules.AssemblyInfo.cs
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\obj\Debug\net5.0\InterfaceLibrary.BusinessRules.csproj.CoreCompileInputs.cache
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\obj\Debug\net5.0\Asaph.InterfaceLibrary.BusinessRules.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\obj\Debug\net5.0\ref\Asaph.InterfaceLibrary.BusinessRules.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\obj\Debug\net5.0\Asaph.InterfaceLibrary.BusinessRules.pdb

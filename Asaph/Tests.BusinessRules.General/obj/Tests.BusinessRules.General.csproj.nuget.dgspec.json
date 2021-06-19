@@ -1,0 +1,451 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.BusinessRules.General\\Tests.BusinessRules.General.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Global\\Global.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Global\\Global.csproj",
+        "projectName": "Asaph.Global",
+        "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Global\\Global.csproj",
+        "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Global\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.DependencyInjector.BusinessRules\\Implementation.DependencyInjector.BusinessRules.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.DependencyInjector.BusinessRules\\Implementation.DependencyInjector.BusinessRules.csproj"
+              },
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.DependencyInjector.BusinessRules\\Implementation.DependencyInjector.BusinessRules.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.DependencyInjector.BusinessRules\\Implementation.DependencyInjector.BusinessRules.csproj",
+        "projectName": "Asaph.Implementation.DependencyInjector.BusinessRules",
+        "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.DependencyInjector.BusinessRules\\Implementation.DependencyInjector.BusinessRules.csproj",
+        "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.DependencyInjector.BusinessRules\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj"
+              },
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj",
+        "projectName": "Asaph.Implementation.SongTitles",
+        "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj",
+        "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj",
+        "projectName": "Asaph.InterfaceLibrary.BusinessRules",
+        "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj",
+        "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.BusinessRules.General\\Tests.BusinessRules.General.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.BusinessRules.General\\Tests.BusinessRules.General.csproj",
+        "projectName": "Asaph.Tests.BusinessRules.General",
+        "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.BusinessRules.General\\Tests.BusinessRules.General.csproj",
+        "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.BusinessRules.General\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Global\\Global.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Global\\Global.csproj"
+              },
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.Shared\\Tests.Shared.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.Shared\\Tests.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.Shared\\Tests.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.Shared\\Tests.Shared.csproj",
+        "projectName": "Asaph.Tests.Shared",
+        "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.Shared\\Tests.Shared.csproj",
+        "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Global\\Global.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Global\\Global.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "xunit.abstractions": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

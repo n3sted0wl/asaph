@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Asaph.Implementation.SongTitles</AssemblyName>
+    <RootNamespace>Asaph.Implementation.SongTitles</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InterfaceLibrary.BusinessRules.SongTitles\InterfaceLibrary.BusinessRules.csproj" />
+  </ItemGroup>
+
+</Project>

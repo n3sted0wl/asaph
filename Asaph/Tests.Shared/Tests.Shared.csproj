@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Asaph.Tests.Shared</AssemblyName>
+    <RootNamespace>Asaph.Tests.Shared</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="testsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="testsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="xunit.abstractions" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Global\Global.csproj" />
+  </ItemGroup>
+
+</Project>
