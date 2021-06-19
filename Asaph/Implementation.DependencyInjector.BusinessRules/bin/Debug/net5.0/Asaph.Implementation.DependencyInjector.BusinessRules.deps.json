@@ -56,8 +56,16 @@
         }
       },
       "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
+        "dependencies": {
+          "Asaph.InterfaceLibrary.Shared": "1.0.0"
+        },
         "runtime": {
           "Asaph.InterfaceLibrary.BusinessRules.dll": {}
+        }
+      },
+      "Asaph.InterfaceLibrary.Shared/1.0.0": {
+        "runtime": {
+          "Asaph.InterfaceLibrary.Shared.dll": {}
         }
       }
     }
@@ -95,6 +103,11 @@
       "sha512": ""
     },
     "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asaph.InterfaceLibrary.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

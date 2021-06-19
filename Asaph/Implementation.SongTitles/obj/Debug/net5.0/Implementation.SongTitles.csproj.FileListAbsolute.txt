@@ -13,3 +13,5 @@ C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.SongTitles\obj\Debug\net5.0
 C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.SongTitles\obj\Debug\net5.0\Asaph.Implementation.SongTitles.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.SongTitles\obj\Debug\net5.0\ref\Asaph.Implementation.SongTitles.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.SongTitles\obj\Debug\net5.0\Asaph.Implementation.SongTitles.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.SongTitles\bin\Debug\net5.0\Asaph.InterfaceLibrary.Shared.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.SongTitles\bin\Debug\net5.0\Asaph.InterfaceLibrary.Shared.pdb

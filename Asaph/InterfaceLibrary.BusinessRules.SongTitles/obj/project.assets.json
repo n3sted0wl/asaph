@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Asaph.InterfaceLibrary.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Asaph.InterfaceLibrary.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Asaph.InterfaceLibrary.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Asaph.InterfaceLibrary.Shared/1.0.0": {
+      "type": "project",
+      "path": "../InterfaceLibrary.Shared/InterfaceLibrary.Shared.csproj",
+      "msbuildProject": "../InterfaceLibrary.Shared/InterfaceLibrary.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Asaph.InterfaceLibrary.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\paulj\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.Shared\\InterfaceLibrary.Shared.csproj": {
+              "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.Shared\\InterfaceLibrary.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -15,3 +15,5 @@ C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.Business
 C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Asaph.Implementation.DependencyInjector.BusinessRules.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\ref\Asaph.Implementation.DependencyInjector.BusinessRules.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\obj\Debug\net5.0\Asaph.Implementation.DependencyInjector.BusinessRules.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\Asaph.InterfaceLibrary.Shared.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Implementation.DependencyInjector.BusinessRules\bin\Debug\net5.0\Asaph.InterfaceLibrary.Shared.pdb

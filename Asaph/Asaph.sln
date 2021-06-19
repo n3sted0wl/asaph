@@ -21,11 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Application
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImplementationLibraries", "ImplementationLibraries", "{E7636368-4C37-4A20-A949-E3F92BE4E42C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.BusinessRules.General", "Tests.BusinessRules.General\Tests.BusinessRules.General.csproj", "{8A1B67A8-1053-4B64-9E8F-42D129DE2097}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.BusinessRules.General", "Tests.BusinessRules.General\Tests.BusinessRules.General.csproj", "{8A1B67A8-1053-4B64-9E8F-42D129DE2097}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLibrary.PersistenceRecords", "InterfaceLibraries.PersistenceRecords.SongTitles\InterfaceLibrary.PersistenceRecords.csproj", "{C89E48E9-3D62-42F4-A75D-776E4A737610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceLibrary.PersistenceRecords", "InterfaceLibraries.PersistenceRecords.SongTitles\InterfaceLibrary.PersistenceRecords.csproj", "{C89E48E9-3D62-42F4-A75D-776E4A737610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLibrary.BusinessRules", "InterfaceLibrary.BusinessRules.SongTitles\InterfaceLibrary.BusinessRules.csproj", "{A88FA364-1760-4A67-B06B-B086DEB84E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceLibrary.BusinessRules", "InterfaceLibrary.BusinessRules.SongTitles\InterfaceLibrary.BusinessRules.csproj", "{A88FA364-1760-4A67-B06B-B086DEB84E8E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{AC97A6F5-C1F2-48FF-9B8B-ADD63E13DE3C}"
 EndProject
@@ -33,17 +33,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileSystems", "FileSystems"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{2C020DFD-4803-4C4A-BDC7-97E4BB7E73F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Global", "Global\Global.csproj", "{6553817A-25E7-4C2C-A148-1ACA8AA49BA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Global", "Global\Global.csproj", "{6553817A-25E7-4C2C-A148-1ACA8AA49BA6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{ADF95DE0-63C5-428B-A509-2C1DBDFCB87E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Shared", "Tests.Shared\Tests.Shared.csproj", "{DF364E2C-AB5B-4258-87DC-B75EC518AEBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests.Shared", "Tests.Shared\Tests.Shared.csproj", "{DF364E2C-AB5B-4258-87DC-B75EC518AEBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementation.DependencyInjector.BusinessRules", "Implementation.DependencyInjector.BusinessRules\Implementation.DependencyInjector.BusinessRules.csproj", "{5C8A5E16-8DD5-42CB-9FB9-7FA48F06B9A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implementation.DependencyInjector.BusinessRules", "Implementation.DependencyInjector.BusinessRules\Implementation.DependencyInjector.BusinessRules.csproj", "{5C8A5E16-8DD5-42CB-9FB9-7FA48F06B9A8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessRules", "BusinessRules", "{913F1831-93DB-4663-AC94-BC072E12E42D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementation.SongTitles", "Implementation.SongTitles\Implementation.SongTitles.csproj", "{76901BED-5072-42E8-9429-96F1320115BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implementation.SongTitles", "Implementation.SongTitles\Implementation.SongTitles.csproj", "{76901BED-5072-42E8-9429-96F1320115BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLibrary.Shared", "InterfaceLibrary.Shared\InterfaceLibrary.Shared.csproj", "{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{76901BED-5072-42E8-9429-96F1320115BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76901BED-5072-42E8-9429-96F1320115BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76901BED-5072-42E8-9429-96F1320115BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +105,7 @@ Global
 		{5C8A5E16-8DD5-42CB-9FB9-7FA48F06B9A8} = {C27AA5FE-409E-4D10-90B1-95A08CCA760D}
 		{913F1831-93DB-4663-AC94-BC072E12E42D} = {E7636368-4C37-4A20-A949-E3F92BE4E42C}
 		{76901BED-5072-42E8-9429-96F1320115BF} = {913F1831-93DB-4663-AC94-BC072E12E42D}
+		{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D} = {22563AFD-580B-4015-AB8C-7E4CEA955D48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {535D1623-2EF1-4A33-BC6E-A081B95D06C2}

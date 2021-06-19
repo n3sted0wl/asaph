@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Asaph.InterfaceLibrary.Shared</AssemblyName>
+  </PropertyGroup>
+
+</Project>

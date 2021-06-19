@@ -7,6 +7,10 @@ using Microsoft.Extensions.Configuration;
 using Xunit.Abstractions;
 
 namespace Asaph.Tests.Shared {
+    /// <summary>
+    /// Used for all Asaph TEST applications. Exposes Asaph's Globally available factories and functions.
+    /// Uses testsettings.json for default configuration.
+    /// </summary>
     [ExcludeFromCodeCoverage]
     public class GlobalTestsBaseClass {
         private readonly AsaphInjectionManager _injectionManager;

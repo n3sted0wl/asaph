@@ -159,11 +159,24 @@
       "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Asaph.InterfaceLibrary.Shared": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Asaph.InterfaceLibrary.BusinessRules.dll": {}
         },
         "runtime": {
           "bin/placeholder/Asaph.InterfaceLibrary.BusinessRules.dll": {}
+        }
+      },
+      "Asaph.InterfaceLibrary.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Asaph.InterfaceLibrary.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Asaph.InterfaceLibrary.Shared.dll": {}
         }
       }
     }
@@ -369,6 +382,11 @@
       "type": "project",
       "path": "../InterfaceLibrary.BusinessRules.SongTitles/InterfaceLibrary.BusinessRules.csproj",
       "msbuildProject": "../InterfaceLibrary.BusinessRules.SongTitles/InterfaceLibrary.BusinessRules.csproj"
+    },
+    "Asaph.InterfaceLibrary.Shared/1.0.0": {
+      "type": "project",
+      "path": "../InterfaceLibrary.Shared/InterfaceLibrary.Shared.csproj",
+      "msbuildProject": "../InterfaceLibrary.Shared/InterfaceLibrary.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
