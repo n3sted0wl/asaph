@@ -8,6 +8,7 @@ using Xunit.Abstractions;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace Asaph.Tests.BusinessRules.General.SongTitles {
     [ExcludeFromCodeCoverage]
@@ -16,6 +17,7 @@ namespace Asaph.Tests.BusinessRules.General.SongTitles {
 
         [Fact]
         public void SongTitlesCanBeWrittenAndRead() {
+            // Build
             SongTitlesFactory songTitlesFactory = AsaphInjectionManager().BusinessRulesInjector().SongTitlesFactory();
             SongTitle firstSongTitle  = songTitlesFactory.Builder().Build("First Song Title");
             SongTitle secondSongTitle = songTitlesFactory.Builder().Build("Second Song Title");
@@ -25,6 +27,7 @@ namespace Asaph.Tests.BusinessRules.General.SongTitles {
             SongTitle sixthSongTitle  = songTitlesFactory.Builder().Build("Sixth Song Title");
             Assert.NotEqual(firstSongTitle.RecordId, secondSongTitle.RecordId);
 
+            // Write
             List<Task<AsaphOperationResult<SongTitle>>> individualSaveResults = new() {
                 songTitlesFactory.Writer().Save(firstSongTitle),
                 songTitlesFactory.Writer().Save(secondSongTitle)
@@ -50,6 +53,38 @@ namespace Asaph.Tests.BusinessRules.General.SongTitles {
                 batchSaveResults.Where(task => task.Result.HasFailureStatus).ToList();
             Assert.Equal(2, batchSaveResults.Count);
             Assert.Empty(failedBatchSaveResults);
+
+            // Read
+            List<Guid> songTitleRecordIds =
+                new() {
+                    firstSongTitle.RecordId,
+                    secondSongTitle.RecordId,
+                    thirdSongTitle.RecordId,
+                    fourthSongTitle.RecordId,
+                    fifthSongTitle.RecordId,
+                    sixthSongTitle.RecordId,
+                };
+            Task<AsaphOperationResult<IEnumerable<SongTitle>>> readResultTask =
+                songTitlesFactory
+                .Reader()
+                .SongTitles(songTitleRecordIds);
+            AsaphOperationResult<IEnumerable<SongTitle>> readResult = readResultTask.Result;
+            Assert.True(readResult.HasSuccessStatus);
+            IEnumerable<SongTitle> songTitles = readResult.Payload;
+            Assert.Equal(6, songTitles.Count());
+
+            // Delete
+            Task<AsaphOperationResult> batchDeleteResultTask = songTitlesFactory.Deleter().Delete(songTitleRecordIds);
+            AsaphOperationResult batchDeleteResult = batchDeleteResultTask.Result;
+            Assert.True(batchDeleteResult.HasSuccessStatus);
+            Task<AsaphOperationResult<IEnumerable<SongTitle>>> readResultTaskAfterDelete =
+                songTitlesFactory
+                .Reader()
+                .SongTitles(songTitleRecordIds);
+            AsaphOperationResult<IEnumerable<SongTitle>> readResultAfterDelte = readResultTaskAfterDelete.Result;
+            Assert.True(readResultAfterDelte.HasSuccessStatus);
+            IEnumerable<SongTitle> songTitlesAfterDelete = readResultAfterDelte.Payload;
+            Assert.Empty(songTitlesAfterDelete);
         }
     }
 }
