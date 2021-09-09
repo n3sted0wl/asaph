@@ -1,4 +1,4 @@
-﻿namespace InterfaceLibrary.Shared {
+﻿namespace Asaph.InterfaceLibrary.Shared {
     public enum OperationStatus {
         Success,
         Failure,

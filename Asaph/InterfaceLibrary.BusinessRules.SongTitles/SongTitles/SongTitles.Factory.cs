@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using InterfaceLibrary.Shared;
+using Asaph.InterfaceLibrary.Shared;
 
 namespace Asaph.InterfaceLibrary.BusinessRules.SongTitles {
     public interface SongTitlesFactory {

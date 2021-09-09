@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 
 using Asaph.Tests.Shared;
-using InterfaceLibrary.Shared;
+using Asaph.InterfaceLibrary.Shared;
 using Xunit;
 using Xunit.Abstractions;
 using System.Threading.Tasks;

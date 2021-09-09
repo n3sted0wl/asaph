@@ -2,7 +2,6 @@ C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\bin\Debug\net5.0\A
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\bin\Debug\net5.0\Asaph.InterfaceLibrary.Shared.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\bin\Debug\net5.0\ref\Asaph.InterfaceLibrary.Shared.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\bin\Debug\net5.0\Asaph.InterfaceLibrary.Shared.pdb
-C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\obj\Debug\net5.0\InterfaceLibrary.Shared.csproj.AssemblyReference.cache
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\obj\Debug\net5.0\InterfaceLibrary.Shared.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\obj\Debug\net5.0\InterfaceLibrary.Shared.AssemblyInfoInputs.cache
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\obj\Debug\net5.0\InterfaceLibrary.Shared.AssemblyInfo.cs

@@ -47,6 +47,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implementation.SongTitles",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLibrary.Shared", "InterfaceLibrary.Shared\InterfaceLibrary.Shared.csproj", "{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceLibrary.Authorizations", "InterfaceLibrary.Authorizations\InterfaceLibrary.Authorizations.csproj", "{E39FA648-FA96-4F40-8737-3C5EC3A313D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39FA648-FA96-4F40-8737-3C5EC3A313D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39FA648-FA96-4F40-8737-3C5EC3A313D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39FA648-FA96-4F40-8737-3C5EC3A313D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39FA648-FA96-4F40-8737-3C5EC3A313D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +112,7 @@ Global
 		{913F1831-93DB-4663-AC94-BC072E12E42D} = {E7636368-4C37-4A20-A949-E3F92BE4E42C}
 		{76901BED-5072-42E8-9429-96F1320115BF} = {913F1831-93DB-4663-AC94-BC072E12E42D}
 		{DB03C563-11AD-4ADC-8C0A-C93EF81AF92D} = {22563AFD-580B-4015-AB8C-7E4CEA955D48}
+		{E39FA648-FA96-4F40-8737-3C5EC3A313D2} = {22563AFD-580B-4015-AB8C-7E4CEA955D48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {535D1623-2EF1-4A33-BC6E-A081B95D06C2}
