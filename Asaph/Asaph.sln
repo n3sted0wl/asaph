@@ -63,6 +63,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceLibrary.EventLogs"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceLibrary.RecordRevisions", "InterfaceLibrary.RecordRevisions\InterfaceLibrary.RecordRevisions.csproj", "{0C4ACD96-C104-43A6-BC81-C0DE50800BFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Factories", "Tests.Factories\Tests.Factories.csproj", "{82546512-2A91-41C3-B4F9-9F70E56317CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{0C4ACD96-C104-43A6-BC81-C0DE50800BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C4ACD96-C104-43A6-BC81-C0DE50800BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C4ACD96-C104-43A6-BC81-C0DE50800BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82546512-2A91-41C3-B4F9-9F70E56317CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82546512-2A91-41C3-B4F9-9F70E56317CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82546512-2A91-41C3-B4F9-9F70E56317CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82546512-2A91-41C3-B4F9-9F70E56317CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +161,7 @@ Global
 		{D9D9E899-B017-43C3-873C-F6F6BCD6D009} = {E7636368-4C37-4A20-A949-E3F92BE4E42C}
 		{0DC5C19C-C13A-4E4B-ABCB-7FB7625162F5} = {22563AFD-580B-4015-AB8C-7E4CEA955D48}
 		{0C4ACD96-C104-43A6-BC81-C0DE50800BFC} = {22563AFD-580B-4015-AB8C-7E4CEA955D48}
+		{82546512-2A91-41C3-B4F9-9F70E56317CA} = {5EEA3BC7-9B87-474D-AFAB-CAB56C494109}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {535D1623-2EF1-4A33-BC6E-A081B95D06C2}

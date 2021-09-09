@@ -16,8 +16,8 @@ namespace Asaph.Implementations.ServiceCallers.Database.Implementations {
         }
 
         public IEnumerable<Model> Records { get; set; } = new List<Model>();
-        public bool HasSuccessStatus => Status == OperationStatus.Success;
-        public bool HasFailureStatus => !HasSuccessStatus;
+        public bool HasSuccessStatus() => Status == OperationStatus.Success;
+        public bool HasFailureStatus() => !HasSuccessStatus();
         public OperationStatus Status { get; set; } = OperationStatus.Failure;
         public string Message { get; set; } = string.Empty;
     }

@@ -6,8 +6,8 @@
     }
 
     public interface AsaphOperationResult {
-        bool HasSuccessStatus { get; }
-        bool HasFailureStatus { get; }
+        bool HasSuccessStatus();
+        bool HasFailureStatus();
 
         OperationStatus Status { get; }
         string Message { get; }

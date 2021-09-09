@@ -53,12 +53,12 @@ namespace Asaph.Tests.BusinessRules.General.SongTitles {
             };
 
             List<Task<AsaphOperationResult<SongTitle>>> failedIndividualSaveResults = 
-                individualSaveResults.Where(task => task.Result.HasFailureStatus).ToList();
+                individualSaveResults.Where(task => task.Result.HasFailureStatus()).ToList();
             Assert.Equal(2, individualSaveResults.Count);
             Assert.Empty(failedIndividualSaveResults);
 
             List<Task<AsaphOperationResult<IEnumerable<SongTitle>>>> failedBatchSaveResults =
-                batchSaveResults.Where(task => task.Result.HasFailureStatus).ToList();
+                batchSaveResults.Where(task => task.Result.HasFailureStatus()).ToList();
             Assert.Equal(2, batchSaveResults.Count);
             Assert.Empty(failedBatchSaveResults);
 
@@ -69,20 +69,20 @@ namespace Asaph.Tests.BusinessRules.General.SongTitles {
                 .Reader()
                 .SongTitles(songTitleRecordIds);
             AsaphOperationResult<IEnumerable<SongTitle>> readResult = readResultTask.Result;
-            Assert.True(readResult.HasSuccessStatus);
+            Assert.True(readResult.HasSuccessStatus());
             IEnumerable<SongTitle> songTitles = readResult.Payload;
             Assert.Equal(6, songTitles.Count());
 
             // Delete
             Task<AsaphOperationResult> batchDeleteResultTask = songTitlesFactory.Deleter().Delete(songTitleRecordIds);
             AsaphOperationResult batchDeleteResult = batchDeleteResultTask.Result;
-            Assert.True(batchDeleteResult.HasSuccessStatus);
+            Assert.True(batchDeleteResult.HasSuccessStatus());
             Task<AsaphOperationResult<IEnumerable<SongTitle>>> readResultTaskAfterDelete =
                 songTitlesFactory
                 .Reader()
                 .SongTitles(songTitleRecordIds);
             AsaphOperationResult<IEnumerable<SongTitle>> readResultAfterDelte = readResultTaskAfterDelete.Result;
-            Assert.True(readResultAfterDelte.HasSuccessStatus);
+            Assert.True(readResultAfterDelte.HasSuccessStatus());
             IEnumerable<SongTitle> songTitlesAfterDelete = readResultAfterDelte.Payload;
             Assert.Empty(songTitlesAfterDelete);
         }

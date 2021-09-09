@@ -20,7 +20,7 @@ namespace Asaph.Tests.Shared {
         protected readonly IConfiguration Configuration;
         protected readonly ITestOutputHelper OutputHelper;
 
-        protected AppManagementInjector AsaphInjectionManager() => _appManagementInjector;
+        protected AppManagementInjector AsaphAppsInjectionManager() => _appManagementInjector;
         protected SongTitlesAppInjector SongTitlesAppInjector() => _songTitlesInjector;
 
         public GlobalTestsBaseClass(ITestOutputHelper outputHelper) {
