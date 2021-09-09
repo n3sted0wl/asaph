@@ -8,14 +8,25 @@
     ".NETCoreApp,Version=v5.0": {
       "Asaph.Global/1.0.0": {
         "dependencies": {
-          "Asaph.Implementation.DependencyInjector.BusinessRules": "1.0.0",
+          "Asaph.Implementation.DependencyInjectors": "1.0.0",
+          "Asaph.Implementations.ServiceCallers.Database": "1.0.0",
           "Asaph.InterfaceLibrary.BusinessRules": "1.0.0",
+          "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
+          "Asaph.InterfaceLibrary.ServiceCallers": "1.0.0",
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0"
         },
         "runtime": {
           "Asaph.Global.dll": {}
+        }
+      },
+      "Dapper/2.0.90": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.90.36046"
+          }
         }
       },
       "Microsoft.Extensions.Configuration/5.0.0": {
@@ -36,6 +47,17 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
@@ -110,30 +132,63 @@
           }
         }
       },
-      "Asaph.Implementation.DependencyInjector.BusinessRules/1.0.0": {
-        "dependencies": {
-          "Asaph.Implementation.SongTitles": "1.0.0",
-          "Asaph.InterfaceLibrary.BusinessRules": "1.0.0",
-          "Microsoft.Extensions.Configuration": "5.0.0"
-        },
-        "runtime": {
-          "Asaph.Implementation.DependencyInjector.BusinessRules.dll": {}
-        }
-      },
-      "Asaph.Implementation.SongTitles/1.0.0": {
+      "Asaph.Implementation.BusinessRules.SongTitles/1.0.0": {
         "dependencies": {
           "Asaph.InterfaceLibrary.BusinessRules": "1.0.0"
         },
         "runtime": {
-          "Asaph.Implementation.SongTitles.dll": {}
+          "Asaph.Implementation.BusinessRules.SongTitles.dll": {}
+        }
+      },
+      "Asaph.Implementation.DependencyInjectors/1.0.0": {
+        "dependencies": {
+          "Asaph.Implementation.BusinessRules.SongTitles": "1.0.0",
+          "Asaph.Implementations.ServiceCallers.Database": "1.0.0",
+          "Asaph.InterfaceLibrary.BusinessRules": "1.0.0",
+          "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
+          "Asaph.InterfaceLibrary.ServiceCallers": "1.0.0",
+          "Microsoft.Extensions.Configuration": "5.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Configuration.Json": "5.0.0"
+        },
+        "runtime": {
+          "Asaph.Implementation.DependencyInjectors.dll": {}
+        }
+      },
+      "Asaph.Implementations.ServiceCallers.Database/1.0.0": {
+        "dependencies": {
+          "Asaph.InterfaceLibrary.ServiceCallers": "1.0.0",
+          "Dapper": "2.0.90",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Configuration.Binder": "5.0.0"
+        },
+        "runtime": {
+          "Asaph.Implementations.ServiceCallers.Database.dll": {}
         }
       },
       "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
         "dependencies": {
+          "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
           "Asaph.InterfaceLibrary.Shared": "1.0.0"
         },
         "runtime": {
           "Asaph.InterfaceLibrary.BusinessRules.dll": {}
+        }
+      },
+      "Asaph.InterfaceLibrary.RecordRevisions/1.0.0": {
+        "dependencies": {
+          "Asaph.InterfaceLibrary.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Asaph.InterfaceLibrary.RecordRevisions.dll": {}
+        }
+      },
+      "Asaph.InterfaceLibrary.ServiceCallers/1.0.0": {
+        "dependencies": {
+          "Asaph.InterfaceLibrary.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Asaph.InterfaceLibrary.ServiceCallers.dll": {}
         }
       },
       "Asaph.InterfaceLibrary.Shared/1.0.0": {
@@ -149,6 +204,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Dapper/2.0.90": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e4YjOLJptnpwHIbP8HxjaYf7So9lhUC43rvvGMEkH4Q4CiVlm4rOxYDo0HyuHlMQKj0U5Ob/nCMm52TUhTaZQg==",
+      "path": "dapper/2.0.90",
+      "hashPath": "dapper.2.0.90.nupkg.sha512"
+    },
     "Microsoft.Extensions.Configuration/5.0.0": {
       "type": "package",
       "serviceable": true,
@@ -162,6 +224,13 @@
       "sha512": "sha512-ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
       "path": "microsoft.extensions.configuration.abstractions/5.0.0",
       "hashPath": "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Of1Irt1+NzWO+yEYkuDh5TpT4On7LKl98Q9iLqCdOZps6XXEWDj3AKtmyvzJPVXZe4apmkJJIiDL7rR1yC+hjQ==",
+      "path": "microsoft.extensions.configuration.binder/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.FileExtensions/5.0.0": {
       "type": "package",
@@ -205,17 +274,32 @@
       "path": "microsoft.extensions.primitives/5.0.0",
       "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
     },
-    "Asaph.Implementation.DependencyInjector.BusinessRules/1.0.0": {
+    "Asaph.Implementation.BusinessRules.SongTitles/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Asaph.Implementation.SongTitles/1.0.0": {
+    "Asaph.Implementation.DependencyInjectors/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asaph.Implementations.ServiceCallers.Database/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asaph.InterfaceLibrary.RecordRevisions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asaph.InterfaceLibrary.ServiceCallers/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

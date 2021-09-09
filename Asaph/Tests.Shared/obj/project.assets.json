@@ -136,9 +136,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Asaph.Implementation.DependencyInjector.BusinessRules": "1.0.0",
+          "Asaph.Implementation.DependencyInjectors": "1.0.0",
           "Asaph.Implementations.ServiceCallers.Database": "1.0.0",
           "Asaph.InterfaceLibrary.BusinessRules": "1.0.0",
+          "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
           "Asaph.InterfaceLibrary.ServiceCallers": "1.0.0",
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
@@ -164,19 +165,24 @@
           "bin/placeholder/Asaph.Implementation.BusinessRules.SongTitles.dll": {}
         }
       },
-      "Asaph.Implementation.DependencyInjector.BusinessRules/1.0.0": {
+      "Asaph.Implementation.DependencyInjectors/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Asaph.Implementation.BusinessRules.SongTitles": "1.0.0",
+          "Asaph.Implementations.ServiceCallers.Database": "1.0.0",
           "Asaph.InterfaceLibrary.BusinessRules": "1.0.0",
-          "Microsoft.Extensions.Configuration": "5.0.0"
+          "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
+          "Asaph.InterfaceLibrary.ServiceCallers": "1.0.0",
+          "Microsoft.Extensions.Configuration": "5.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Configuration.Json": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/Asaph.Implementation.DependencyInjector.BusinessRules.dll": {}
+          "bin/placeholder/Asaph.Implementation.DependencyInjectors.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Asaph.Implementation.DependencyInjector.BusinessRules.dll": {}
+          "bin/placeholder/Asaph.Implementation.DependencyInjectors.dll": {}
         }
       },
       "Asaph.Implementations.ServiceCallers.Database/1.0.0": {
@@ -199,6 +205,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
           "Asaph.InterfaceLibrary.Shared": "1.0.0"
         },
         "compile": {
@@ -206,6 +213,19 @@
         },
         "runtime": {
           "bin/placeholder/Asaph.InterfaceLibrary.BusinessRules.dll": {}
+        }
+      },
+      "Asaph.InterfaceLibrary.RecordRevisions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Asaph.InterfaceLibrary.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Asaph.InterfaceLibrary.RecordRevisions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Asaph.InterfaceLibrary.RecordRevisions.dll": {}
         }
       },
       "Asaph.InterfaceLibrary.ServiceCallers/1.0.0": {
@@ -463,10 +483,10 @@
       "path": "../Implementation.SongTitles/Implementation.BusinessRules.SongTitles.csproj",
       "msbuildProject": "../Implementation.SongTitles/Implementation.BusinessRules.SongTitles.csproj"
     },
-    "Asaph.Implementation.DependencyInjector.BusinessRules/1.0.0": {
+    "Asaph.Implementation.DependencyInjectors/1.0.0": {
       "type": "project",
-      "path": "../Implementation.DependencyInjector.BusinessRules/Implementation.DependencyInjector.BusinessRules.csproj",
-      "msbuildProject": "../Implementation.DependencyInjector.BusinessRules/Implementation.DependencyInjector.BusinessRules.csproj"
+      "path": "../Implementation.DependencyInjector.BusinessRules/Implementation.DependencyInjectors.csproj",
+      "msbuildProject": "../Implementation.DependencyInjector.BusinessRules/Implementation.DependencyInjectors.csproj"
     },
     "Asaph.Implementations.ServiceCallers.Database/1.0.0": {
       "type": "project",
@@ -477,6 +497,11 @@
       "type": "project",
       "path": "../InterfaceLibrary.BusinessRules.SongTitles/InterfaceLibrary.BusinessRules.csproj",
       "msbuildProject": "../InterfaceLibrary.BusinessRules.SongTitles/InterfaceLibrary.BusinessRules.csproj"
+    },
+    "Asaph.InterfaceLibrary.RecordRevisions/1.0.0": {
+      "type": "project",
+      "path": "../InterfaceLibrary.RecordRevisions/InterfaceLibrary.RecordRevisions.csproj",
+      "msbuildProject": "../InterfaceLibrary.RecordRevisions/InterfaceLibrary.RecordRevisions.csproj"
     },
     "Asaph.InterfaceLibrary.ServiceCallers/1.0.0": {
       "type": "project",

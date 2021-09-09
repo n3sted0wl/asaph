@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v5.0": {
       "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
         "dependencies": {
+          "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
           "Asaph.InterfaceLibrary.Shared": "1.0.0"
         },
         "runtime": {
           "Asaph.InterfaceLibrary.BusinessRules.dll": {}
+        }
+      },
+      "Asaph.InterfaceLibrary.RecordRevisions/1.0.0": {
+        "dependencies": {
+          "Asaph.InterfaceLibrary.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Asaph.InterfaceLibrary.RecordRevisions.dll": {}
         }
       },
       "Asaph.InterfaceLibrary.Shared/1.0.0": {
@@ -23,6 +32,11 @@
   },
   "libraries": {
     "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Asaph.InterfaceLibrary.RecordRevisions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

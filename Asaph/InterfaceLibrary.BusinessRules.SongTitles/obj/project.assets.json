@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Asaph.InterfaceLibrary.RecordRevisions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Asaph.InterfaceLibrary.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Asaph.InterfaceLibrary.RecordRevisions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Asaph.InterfaceLibrary.RecordRevisions.dll": {}
+        }
+      },
       "Asaph.InterfaceLibrary.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "Asaph.InterfaceLibrary.RecordRevisions/1.0.0": {
+      "type": "project",
+      "path": "../InterfaceLibrary.RecordRevisions/InterfaceLibrary.RecordRevisions.csproj",
+      "msbuildProject": "../InterfaceLibrary.RecordRevisions/InterfaceLibrary.RecordRevisions.csproj"
+    },
     "Asaph.InterfaceLibrary.Shared/1.0.0": {
       "type": "project",
       "path": "../InterfaceLibrary.Shared/InterfaceLibrary.Shared.csproj",
@@ -23,6 +41,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Asaph.InterfaceLibrary.RecordRevisions >= 1.0.0",
       "Asaph.InterfaceLibrary.Shared >= 1.0.0"
     ]
   },
@@ -59,6 +78,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.RecordRevisions\\InterfaceLibrary.RecordRevisions.csproj": {
+              "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.RecordRevisions\\InterfaceLibrary.RecordRevisions.csproj"
+            },
             "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.Shared\\InterfaceLibrary.Shared.csproj": {
               "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.Shared\\InterfaceLibrary.Shared.csproj"
             }

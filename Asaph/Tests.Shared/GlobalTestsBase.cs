@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-using Asaph.Global;
+using Asaph.Implementation.DependencyInjectors;
+using Asaph.InterfaceLibrary.BusinessRules.Injectors;
 
 using Microsoft.Extensions.Configuration;
 
@@ -13,18 +14,22 @@ namespace Asaph.Tests.Shared {
     /// </summary>
     [ExcludeFromCodeCoverage]
     public class GlobalTestsBaseClass {
-        private readonly AsaphInjectionManager _injectionManager;
+        private readonly AppManagementInjector _appManagementInjector;
+        private readonly SongTitlesAppInjector _songTitlesInjector;
         
         protected readonly IConfiguration Configuration;
         protected readonly ITestOutputHelper OutputHelper;
-        protected AsaphInjectionManager AsaphInjectionManager() => _injectionManager;
+
+        protected AppManagementInjector AsaphInjectionManager() => _appManagementInjector;
+        protected SongTitlesAppInjector SongTitlesAppInjector() => _songTitlesInjector;
 
         public GlobalTestsBaseClass(ITestOutputHelper outputHelper) {
             OutputHelper = outputHelper;
             Configuration = new ConfigurationBuilder()
                 .AddJsonFile($"testsettings.json", false, true)
                 .Build();
-            _injectionManager = new AsaphInjectionManager(configuration: Configuration);
+            _appManagementInjector = new AsaphAppManagementInjector(configuration: Configuration);
+            _songTitlesInjector = new AsaphSongManagementBusinessRulesInjector(configuration: Configuration);
         }
     }
 }

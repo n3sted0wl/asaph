@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "Kk71ISFECFe4hzYrXEjkJmRnbwaUkUg642KWAIHf+u2iTecfnyCked1otM+D+uISC1jpS2KhKDvpN3vwvjXNxg==",
+  "dgSpecHash": "XpWmIogxywUG+uavYa3Z6KFoIY4/PQ84o0nNrhMlfhOgG0hLwGCOWsj3zJwUhOo3IQa3P6T+cgyoXPjtrYCMnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.DependencyInjector.BusinessRules\\Implementation.DependencyInjector.BusinessRules.csproj",
+  "projectFilePath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.DependencyInjector.BusinessRules\\Implementation.DependencyInjectors.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\paulj\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\5.0.0\\microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.json\\5.0.0\\microsoft.extensions.configuration.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
   ],
   "logs": []

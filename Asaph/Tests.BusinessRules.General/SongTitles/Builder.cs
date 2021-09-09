@@ -13,7 +13,7 @@ namespace Asaph.Tests.BusinessRules.General.SongTitles {
 
         [Fact]
         public void SongTitlesCanBeBuiltInMemory() {
-            SongTitlesFactory titlesFactory = AsaphInjectionManager().BusinessRulesInjector().SongTitlesFactory();
+            SongTitlesFactory titlesFactory = SongTitlesAppInjector().SongTitlesFactory();
             string demoSongTitle =
                 Configuration.GetSection("song_title_tests").GetSection("builder").GetSection("title").Value;
             Assert.False(string.IsNullOrWhiteSpace(demoSongTitle), "Test Song Title not configured");

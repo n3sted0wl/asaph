@@ -13,3 +13,5 @@ C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\bin\Debug\net5.0\Asaph.InterfaceLibrary.Shared.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\bin\Debug\net5.0\Asaph.InterfaceLibrary.Shared.pdb
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\obj\Debug\net5.0\InterfaceLibrary.BusinessRules.csproj.CopyComplete
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\bin\Debug\net5.0\Asaph.InterfaceLibrary.RecordRevisions.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.BusinessRules.SongTitles\bin\Debug\net5.0\Asaph.InterfaceLibrary.RecordRevisions.pdb

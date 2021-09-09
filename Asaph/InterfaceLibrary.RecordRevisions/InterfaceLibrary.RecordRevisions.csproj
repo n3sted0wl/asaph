@@ -2,12 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Asaph.InterfaceLibrary.BusinessRules</RootNamespace>
-    <AssemblyName>Asaph.InterfaceLibrary.BusinessRules</AssemblyName>
+    <AssemblyName>Asaph.InterfaceLibrary.RecordRevisions</AssemblyName>
+    <RootNamespace>Asaph.InterfaceLibrary.RecordRevisions</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\InterfaceLibrary.RecordRevisions\InterfaceLibrary.RecordRevisions.csproj" />
     <ProjectReference Include="..\InterfaceLibrary.Shared\InterfaceLibrary.Shared.csproj" />
   </ItemGroup>
 

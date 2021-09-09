@@ -9,3 +9,4 @@ C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\obj\Debug\net5.0\I
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\obj\Debug\net5.0\Asaph.InterfaceLibrary.Shared.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\obj\Debug\net5.0\ref\Asaph.InterfaceLibrary.Shared.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\obj\Debug\net5.0\Asaph.InterfaceLibrary.Shared.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\InterfaceLibrary.Shared\obj\Debug\net5.0\InterfaceLibrary.Shared.csproj.AssemblyReference.cache

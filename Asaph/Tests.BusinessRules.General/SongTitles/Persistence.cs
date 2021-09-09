@@ -18,7 +18,7 @@ namespace Asaph.Tests.BusinessRules.General.SongTitles {
         [Fact]
         public void SongTitlesCanBeWrittenAndRead() {
             // Build
-            SongTitlesFactory songTitlesFactory = AsaphInjectionManager().BusinessRulesInjector().SongTitlesFactory();
+            SongTitlesFactory songTitlesFactory = SongTitlesAppInjector().SongTitlesFactory();
             SongTitle firstSongTitle  = songTitlesFactory.Builder().Build("First Song Title");
             SongTitle secondSongTitle = songTitlesFactory.Builder().Build("Second Song Title");
             SongTitle thirdSongTitle  = songTitlesFactory.Builder().Build("Third Song Title");

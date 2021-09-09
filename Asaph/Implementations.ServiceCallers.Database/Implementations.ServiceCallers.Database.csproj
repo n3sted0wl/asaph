@@ -6,4 +6,14 @@
     <RootNamespace>Asaph.Implementations.ServiceCallers.Database</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.90" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InterfaceLibrary.ServiceCallers\InterfaceLibrary.ServiceCallers.csproj" />
+  </ItemGroup>
+
 </Project>
