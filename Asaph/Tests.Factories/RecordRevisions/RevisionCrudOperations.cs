@@ -43,7 +43,7 @@ namespace Tests.Factories.RecordRevisions {
                     type: type,
                     referenceId: referenceId,
                     dateTime: dateTime,
-                    model: modelToSave);
+                    recordData: modelToSave);
             Task<AsaphOperationResult> saveRequest = writer.Save(revisionRecordToSave);
             AsaphOperationResult saveResult = saveRequest.Result;
             Assert.True(saveResult.HasSuccessStatus(), saveResult.Message);

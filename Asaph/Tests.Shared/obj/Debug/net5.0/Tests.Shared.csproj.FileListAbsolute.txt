@@ -29,3 +29,9 @@ C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.Implem
 C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.Implementations.ServiceCallers.Database.pdb
 C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.InterfaceLibrary.RecordRevisions.pdb
 C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.InterfaceLibrary.ServiceCallers.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.Implementations.AppManagement.RecordRevisions.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.Implementations.Shared.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.Shared.ExtensionMethods.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.Implementations.AppManagement.RecordRevisions.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.Implementations.Shared.pdb
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.Shared\bin\Debug\net5.0\Asaph.Shared.ExtensionMethods.pdb

@@ -21,7 +21,7 @@ namespace Asaph.InterfaceLibrary.RecordRevisions {
             string type, 
             string referenceId,
             DateTime dateTime, 
-            Model model) where Model : class;
+            Model recordData) where Model : class;
     }
 
     public interface AsaphRevisionsWriter {

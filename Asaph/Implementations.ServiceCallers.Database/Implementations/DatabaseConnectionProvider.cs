@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
+using System.Data.SqlClient;
 using System.Linq;
 
 using Asaph.InterfaceLibrary.ServiceCallers.Databases;
 
 using Microsoft.Extensions.Configuration;
+
+using MySql.Data.MySqlClient;
 
 namespace Asaph.Implementations.ServiceCallers.Database.Implementations {
     internal class DbConnectionProvider : DatabaseConnectionProvider {
@@ -22,6 +25,9 @@ namespace Asaph.Implementations.ServiceCallers.Database.Implementations {
                     keySelector: connectionString => connectionString.Name,
                     elementSelector: connectionString => connectionString,
                     comparer: StringComparer.OrdinalIgnoreCase);
+
+            DbProviderFactories.RegisterFactory("System.Data.SqlClient", SqlClientFactory.Instance);
+            DbProviderFactories.RegisterFactory("System.Data.MySqlClient", MySqlClientFactory.Instance);
         }
 
         internal class ConnectionStringConfiguration {

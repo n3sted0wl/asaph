@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExtensionMethods\ExtensionMethods.csproj" />
+    <ProjectReference Include="..\Implementations.Shared\Implementations.Shared.csproj" />
     <ProjectReference Include="..\InterfaceLibrary.RecordRevisions\InterfaceLibrary.RecordRevisions.csproj" />
+    <ProjectReference Include="..\InterfaceLibrary.ServiceCallers\InterfaceLibrary.ServiceCallers.csproj" />
   </ItemGroup>
 
 </Project>
