@@ -125,6 +125,9 @@
               "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj": {
                 "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj"
               },
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.AppManagement.RecordRevisions\\Implementations.AppManagement.RecordRevisions.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.AppManagement.RecordRevisions\\Implementations.AppManagement.RecordRevisions.csproj"
+              },
               "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.ServiceCallers.Database\\Implementations.ServiceCallers.Database.csproj": {
                 "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.ServiceCallers.Database\\Implementations.ServiceCallers.Database.csproj"
               },
@@ -213,6 +216,72 @@
             "projectReferences": {
               "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj": {
                 "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.AppManagement.RecordRevisions\\Implementations.AppManagement.RecordRevisions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.AppManagement.RecordRevisions\\Implementations.AppManagement.RecordRevisions.csproj",
+        "projectName": "Asaph.Implementations.AppManagement.RecordRevisions",
+        "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.AppManagement.RecordRevisions\\Implementations.AppManagement.RecordRevisions.csproj",
+        "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.AppManagement.RecordRevisions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paulj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.RecordRevisions\\InterfaceLibrary.RecordRevisions.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.RecordRevisions\\InterfaceLibrary.RecordRevisions.csproj"
+              },
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.ServiceCallers\\InterfaceLibrary.ServiceCallers.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.ServiceCallers\\InterfaceLibrary.ServiceCallers.csproj"
               }
             }
           }

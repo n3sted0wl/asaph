@@ -5,6 +5,8 @@ using Asaph.InterfaceLibrary.BusinessRules.SongTitles;
 using Asaph.InterfaceLibrary.RecordRevisions;
 using Asaph.InterfaceLibrary.ServiceCallers.Databases;
 
+using Implementations.AppManagement.RecordRevisions;
+
 using Microsoft.Extensions.Configuration;
 
 namespace Asaph.Implementation.DependencyInjectors {
@@ -27,7 +29,7 @@ namespace Asaph.Implementation.DependencyInjectors {
     public class AsaphAppManagementInjector : InjectorsBaseClass, AppManagementInjector {
         public AsaphAppManagementInjector(IConfiguration configuration) : base(configuration) { }
 
-        public AsaphRevisionsFactory RevisionsFactory() => throw new System.NotImplementedException();
+        public AsaphRevisionsFactory RevisionsFactory() => new RevisionsFactory(DatabaseServicesFactory());
     }
 
     public class AsaphSongManagementBusinessRulesInjector : InjectorsBaseClass, SongTitlesAppInjector {

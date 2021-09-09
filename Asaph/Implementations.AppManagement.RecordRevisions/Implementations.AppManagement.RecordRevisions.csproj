@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Asaph.Implementations.AppManagement.RecordRevisions</AssemblyName>
+    <RootNamespace>Asaph.Implementations.AppManagement.RecordRevisions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InterfaceLibrary.RecordRevisions\InterfaceLibrary.RecordRevisions.csproj" />
+  </ItemGroup>
+
+</Project>

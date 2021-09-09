@@ -136,6 +136,20 @@
           "bin/placeholder/Asaph.Implementation.BusinessRules.SongTitles.dll": {}
         }
       },
+      "Asaph.Implementations.AppManagement.RecordRevisions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
+          "Asaph.InterfaceLibrary.ServiceCallers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Asaph.Implementations.AppManagement.RecordRevisions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Asaph.Implementations.AppManagement.RecordRevisions.dll": {}
+        }
+      },
       "Asaph.Implementations.ServiceCallers.Database/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -412,6 +426,11 @@
       "path": "../Implementation.SongTitles/Implementation.BusinessRules.SongTitles.csproj",
       "msbuildProject": "../Implementation.SongTitles/Implementation.BusinessRules.SongTitles.csproj"
     },
+    "Asaph.Implementations.AppManagement.RecordRevisions/1.0.0": {
+      "type": "project",
+      "path": "../Implementations.AppManagement.RecordRevisions/Implementations.AppManagement.RecordRevisions.csproj",
+      "msbuildProject": "../Implementations.AppManagement.RecordRevisions/Implementations.AppManagement.RecordRevisions.csproj"
+    },
     "Asaph.Implementations.ServiceCallers.Database/1.0.0": {
       "type": "project",
       "path": "../Implementations.ServiceCallers.Database/Implementations.ServiceCallers.Database.csproj",
@@ -441,6 +460,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Asaph.Implementation.BusinessRules.SongTitles >= 1.0.0",
+      "Asaph.Implementations.AppManagement.RecordRevisions >= 1.0.0",
       "Asaph.Implementations.ServiceCallers.Database >= 1.0.0",
       "Asaph.InterfaceLibrary.BusinessRules >= 1.0.0",
       "Asaph.InterfaceLibrary.RecordRevisions >= 1.0.0",
@@ -485,6 +505,9 @@
           "projectReferences": {
             "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj": {
               "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj"
+            },
+            "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.AppManagement.RecordRevisions\\Implementations.AppManagement.RecordRevisions.csproj": {
+              "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.AppManagement.RecordRevisions\\Implementations.AppManagement.RecordRevisions.csproj"
             },
             "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.ServiceCallers.Database\\Implementations.ServiceCallers.Database.csproj": {
               "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementations.ServiceCallers.Database\\Implementations.ServiceCallers.Database.csproj"

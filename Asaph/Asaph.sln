@@ -65,6 +65,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceLibrary.RecordRevi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.Factories", "Tests.Factories\Tests.Factories.csproj", "{82546512-2A91-41C3-B4F9-9F70E56317CA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppManagement", "AppManagement", "{6C5A0611-ACA3-4E3E-8EE6-50D6D3CA04D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementations.AppManagement.RecordRevisions", "Implementations.AppManagement.RecordRevisions\Implementations.AppManagement.RecordRevisions.csproj", "{BC509D9E-0049-4A05-B49D-13285AA70DF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +131,10 @@ Global
 		{82546512-2A91-41C3-B4F9-9F70E56317CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82546512-2A91-41C3-B4F9-9F70E56317CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82546512-2A91-41C3-B4F9-9F70E56317CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC509D9E-0049-4A05-B49D-13285AA70DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC509D9E-0049-4A05-B49D-13285AA70DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC509D9E-0049-4A05-B49D-13285AA70DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC509D9E-0049-4A05-B49D-13285AA70DF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -162,6 +170,8 @@ Global
 		{0DC5C19C-C13A-4E4B-ABCB-7FB7625162F5} = {22563AFD-580B-4015-AB8C-7E4CEA955D48}
 		{0C4ACD96-C104-43A6-BC81-C0DE50800BFC} = {22563AFD-580B-4015-AB8C-7E4CEA955D48}
 		{82546512-2A91-41C3-B4F9-9F70E56317CA} = {5EEA3BC7-9B87-474D-AFAB-CAB56C494109}
+		{6C5A0611-ACA3-4E3E-8EE6-50D6D3CA04D6} = {E7636368-4C37-4A20-A949-E3F92BE4E42C}
+		{BC509D9E-0049-4A05-B49D-13285AA70DF0} = {6C5A0611-ACA3-4E3E-8EE6-50D6D3CA04D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {535D1623-2EF1-4A33-BC6E-A081B95D06C2}

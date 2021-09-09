@@ -170,6 +170,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Asaph.Implementation.BusinessRules.SongTitles": "1.0.0",
+          "Asaph.Implementations.AppManagement.RecordRevisions": "1.0.0",
           "Asaph.Implementations.ServiceCallers.Database": "1.0.0",
           "Asaph.InterfaceLibrary.BusinessRules": "1.0.0",
           "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
@@ -183,6 +184,20 @@
         },
         "runtime": {
           "bin/placeholder/Asaph.Implementation.DependencyInjectors.dll": {}
+        }
+      },
+      "Asaph.Implementations.AppManagement.RecordRevisions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Asaph.InterfaceLibrary.RecordRevisions": "1.0.0",
+          "Asaph.InterfaceLibrary.ServiceCallers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Asaph.Implementations.AppManagement.RecordRevisions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Asaph.Implementations.AppManagement.RecordRevisions.dll": {}
         }
       },
       "Asaph.Implementations.ServiceCallers.Database/1.0.0": {
@@ -487,6 +502,11 @@
       "type": "project",
       "path": "../Implementation.DependencyInjector.BusinessRules/Implementation.DependencyInjectors.csproj",
       "msbuildProject": "../Implementation.DependencyInjector.BusinessRules/Implementation.DependencyInjectors.csproj"
+    },
+    "Asaph.Implementations.AppManagement.RecordRevisions/1.0.0": {
+      "type": "project",
+      "path": "../Implementations.AppManagement.RecordRevisions/Implementations.AppManagement.RecordRevisions.csproj",
+      "msbuildProject": "../Implementations.AppManagement.RecordRevisions/Implementations.AppManagement.RecordRevisions.csproj"
     },
     "Asaph.Implementations.ServiceCallers.Database/1.0.0": {
       "type": "project",
