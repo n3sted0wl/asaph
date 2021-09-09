@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "O7LHxV36RtQu1zsUEOaoOKekspWuTCXpuOmol8PRir7vnRzD/kURxyHz1RQ5Jhvrh92yL107RshOU9qvpMv1Yw==",
+  "dgSpecHash": "zgJfDdFo0WA3aSaJKcd0xAzAMyc1ZKXPTRR+R0FomBli7L/+7Qwfm7hDEd91/GRW/cR2QfVnBy1FawWkwwRCKg==",
   "success": true,
   "projectFilePath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.BusinessRules.General\\Tests.BusinessRules.General.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\paulj\\.nuget\\packages\\coverlet.collector\\3.0.3\\coverlet.collector.3.0.3.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.codecoverage\\16.10.0\\microsoft.codecoverage.16.10.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\5.0.0\\microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.json\\5.0.0\\microsoft.extensions.configuration.json.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",

@@ -33,8 +33,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj": {
-                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj"
+              "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj": {
+                "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj"
               },
               "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj": {
                 "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj"
@@ -76,12 +76,12 @@
         }
       }
     },
-    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj": {
+    "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj",
-        "projectName": "Asaph.Implementation.SongTitles",
-        "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj",
+        "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj",
+        "projectName": "Asaph.Implementation.BusinessRules.SongTitles",
+        "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj",
         "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\obj\\",
         "projectStyle": "PackageReference",

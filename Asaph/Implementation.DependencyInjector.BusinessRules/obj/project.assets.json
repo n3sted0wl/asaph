@@ -36,17 +36,17 @@
           "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
         }
       },
-      "Asaph.Implementation.SongTitles/1.0.0": {
+      "Asaph.Implementation.BusinessRules.SongTitles/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Asaph.InterfaceLibrary.BusinessRules": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Asaph.Implementation.SongTitles.dll": {}
+          "bin/placeholder/Asaph.Implementation.BusinessRules.SongTitles.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Asaph.Implementation.SongTitles.dll": {}
+          "bin/placeholder/Asaph.Implementation.BusinessRules.SongTitles.dll": {}
         }
       },
       "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
@@ -137,10 +137,10 @@
         "version.txt"
       ]
     },
-    "Asaph.Implementation.SongTitles/1.0.0": {
+    "Asaph.Implementation.BusinessRules.SongTitles/1.0.0": {
       "type": "project",
-      "path": "../Implementation.SongTitles/Implementation.SongTitles.csproj",
-      "msbuildProject": "../Implementation.SongTitles/Implementation.SongTitles.csproj"
+      "path": "../Implementation.SongTitles/Implementation.BusinessRules.SongTitles.csproj",
+      "msbuildProject": "../Implementation.SongTitles/Implementation.BusinessRules.SongTitles.csproj"
     },
     "Asaph.InterfaceLibrary.BusinessRules/1.0.0": {
       "type": "project",
@@ -155,7 +155,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Asaph.Implementation.SongTitles >= 1.0.0",
+      "Asaph.Implementation.BusinessRules.SongTitles >= 1.0.0",
       "Asaph.InterfaceLibrary.BusinessRules >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 5.0.0"
     ]
@@ -193,8 +193,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj": {
-              "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj"
+            "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj": {
+              "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj"
             },
             "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj": {
               "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\InterfaceLibrary.BusinessRules.SongTitles\\InterfaceLibrary.BusinessRules.csproj"

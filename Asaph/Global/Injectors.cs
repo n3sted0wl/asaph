@@ -1,5 +1,7 @@
 ﻿using Asaph.Implementation.DependencyInjector.BusinessRules;
+using Asaph.Implementations.ServiceCallers.Database;
 using Asaph.InterfaceLibrary.BusinessRules;
+using Asaph.InterfaceLibrary.ServiceCallers.Databases;
 
 using Microsoft.Extensions.Configuration;
 
@@ -20,6 +22,7 @@ namespace Asaph.Global {
             this.Configuration = mergedConfiguration;
         }
 
+        public DatabaseServicesFactory DatabaseServicesFactory() => new AsaphDatabaseServicesFactory(configuration: Configuration.GetSection("Database"));
         public BusinessRulesInjector BusinessRulesInjector() => new AsaphBusinessRulesInjector(configuration: Configuration);
     }
 }

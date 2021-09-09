@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>Asaph.Implementation.SongTitles</AssemblyName>
-    <RootNamespace>Asaph.Implementation.SongTitles</RootNamespace>
+    <AssemblyName>Asaph.Implementation.BusinessRules.SongTitles</AssemblyName>
+    <RootNamespace>Asaph.Implementation.BusinessRules.SongTitles</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

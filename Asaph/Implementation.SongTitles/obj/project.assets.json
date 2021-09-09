@@ -51,9 +51,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj",
-      "projectName": "Asaph.Implementation.SongTitles",
-      "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.SongTitles.csproj",
+      "projectUniqueName": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj",
+      "projectName": "Asaph.Implementation.BusinessRules.SongTitles",
+      "projectPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\Implementation.BusinessRules.SongTitles.csproj",
       "packagesPath": "C:\\Users\\paulj\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Implementation.SongTitles\\obj\\",
       "projectStyle": "PackageReference",

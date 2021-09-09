@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "kF7Bfyeyz0m4hYIQCVoTh2uQdeIMNqt3EB/mzqFQQSQKXqj2+FAZfT5Lx3ofMACIgJtF1njp5hkTQnWnFzPzCw==",
+  "dgSpecHash": "sfUwlmCTH3H7CojvcAvoCR8FQmuEE97V2BBxHBKLTGaoRmFqG/QE6eOseosuoFWH/selFV4uQ8y9dCMvU3Fh+w==",
   "success": true,
   "projectFilePath": "C:\\Users\\paulj\\Projects\\asaph_1\\Asaph\\Tests.Shared\\Tests.Shared.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\paulj\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\5.0.0\\microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.configuration.json\\5.0.0\\microsoft.extensions.configuration.json.5.0.0.nupkg.sha512",
     "C:\\Users\\paulj\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
