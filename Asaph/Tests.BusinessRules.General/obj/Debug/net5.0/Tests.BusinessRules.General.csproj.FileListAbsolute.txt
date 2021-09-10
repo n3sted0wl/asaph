@@ -160,3 +160,15 @@ C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5
 C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\DnsClient.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\MongoDB.Bson.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\MongoDB.Driver.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\MongoDB.Driver.Core.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\MongoDB.Libmongocrypt.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\SharpCompress.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\runtimes\win\native\libzstd.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\runtimes\win\native\snappy32.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\runtimes\win\native\snappy64.dll
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\paulj\Projects\asaph_1\Asaph\Tests.BusinessRules.General\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll

@@ -4,8 +4,8 @@ using Asaph.InterfaceLibrary.ServiceCallers.Databases;
 using Asaph.InterfaceLibrary.Shared;
 
 namespace Asaph.Implementations.ServiceCallers.Database.Implementations {
-    internal class AsaphDbQueryResultForDapper<Model> : AsaphDbQueryResult<Model> {
-        public AsaphDbQueryResultForDapper(
+    internal class GeneralStorageResult<Model> : AsaphStorageReadResult<Model> {
+        public GeneralStorageResult(
             OperationStatus status, 
             string message, 
             IEnumerable<Model> records = null) {

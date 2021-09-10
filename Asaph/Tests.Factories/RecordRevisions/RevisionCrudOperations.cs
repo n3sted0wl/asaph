@@ -10,6 +10,7 @@ using Xunit;
 using Xunit.Abstractions;
 using System.Collections.Generic;
 using System.Linq;
+using Asaph.Shared.ExtensionMethods;
 
 namespace Tests.Factories.RecordRevisions {
     [ExcludeFromCodeCoverage]
@@ -22,7 +23,7 @@ namespace Tests.Factories.RecordRevisions {
         [InlineData("TEST_SYSTEM", "TEST_TYPE", "ref_id_3", "id_3", 3, 124.3d)]
         public void DemoCrudOperationsForARevisionModel(
             string userId, string type, string referenceId, string modelId, int integerValue, decimal decimalValue) {
-            DateTime dateTime = DateTime.Today;
+            DateTime dateTime = DateTime.Now.RoundToSeconds();
             RevModel_Demo modelToSave = new() {
                 ID = modelId,
                 DateTime = dateTime,
@@ -47,6 +48,7 @@ namespace Tests.Factories.RecordRevisions {
             Task<AsaphOperationResult> saveRequest = writer.Save(revisionRecordToSave);
             AsaphOperationResult saveResult = saveRequest.Result;
             Assert.True(saveResult.HasSuccessStatus(), saveResult.Message);
+
             Task<AsaphOperationResult<IEnumerable<RecordRevision<RevModel_Demo>>>> readRequest =
                 reader.Revisions<RevModel_Demo>(
                     tenantId: tenantId,
@@ -54,20 +56,24 @@ namespace Tests.Factories.RecordRevisions {
                     referenceId: referenceId);
             AsaphOperationResult<IEnumerable<RecordRevision<RevModel_Demo>>> readResult = readRequest.Result;
             Assert.True(readResult.HasSuccessStatus(), readResult.Message);
+
             IEnumerable<RecordRevision<RevModel_Demo>> revisionRecords = readResult.Payload;
             Assert.NotEmpty(revisionRecords);
             Assert.Contains(revisionRecords, record => record.Guid.Equals(revisionRecordToSave.Guid));
-            revisionRecords.ToList().ForEach(revision => {
-                Assert.True(revision.TenantId.Equals(tenantId));
+            revisionRecords
+                .Where(revision => revision.Guid.Equals(revisionRecordToSave.Guid))
+                .ToList()
+                .ForEach(revision => {
+                Assert.Equal(tenantId, revision.TenantId);
                 Assert.True(revision.UserId.Equals(userId, StringComparison.OrdinalIgnoreCase));
                 Assert.True(revision.Type.Equals(type, StringComparison.OrdinalIgnoreCase));
                 Assert.True(revision.ReferenceId.Equals(referenceId, StringComparison.OrdinalIgnoreCase));
-                Assert.True(revision.RevisionDateTime.Equals(dateTime));
+                Assert.Equal(dateTime, revision.RevisionDateTime);
 
                 Assert.True(revision.RecordData.ID.Equals(modelId));
                 Assert.True(revision.RecordData.IntegerValue.Equals(integerValue));
                 Assert.True(revision.RecordData.DecimalValue.Equals(decimalValue));
-                Assert.True(revision.RecordData.DateTime.Equals(dateTime));
+                Assert.Equal(dateTime, revision.RecordData.DateTime);
             });
         }
     }

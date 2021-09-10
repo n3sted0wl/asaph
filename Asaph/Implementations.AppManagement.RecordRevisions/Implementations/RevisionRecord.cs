@@ -16,11 +16,23 @@ namespace Asaph.Implementations.AppManagement.RecordRevisions.Implementations {
             RecordData = RevisionDataEncoder.Decode<Model>(dbModel.EncodedData);
         }
 
+        public RevisionRecordForPersistence(Revision_DocumentDbModel<Model> document) {
+            Guid = document.Guid;
+            TenantId = document.TenantId;
+            Type = document.Type;
+            ReferenceId = document.ReferenceId;
+            UserId = document.UserId;
+            RevisionDateTime = document.RevisionDateTime;
+            RecordData = document.RecordData;
+        }
+
         public Guid Guid { get; set; }
         public Guid TenantId { get; set; }
+
         public string Type { get; set; }
         public string ReferenceId { get; set; }
         public string UserId { get; set; }
+
         public DateTime RevisionDateTime { get; set; }
         public Model RecordData { get; set; }
     }

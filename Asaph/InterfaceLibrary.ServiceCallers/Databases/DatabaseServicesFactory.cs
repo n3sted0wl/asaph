@@ -12,7 +12,7 @@ namespace Asaph.InterfaceLibrary.ServiceCallers.Databases {
     }
 
     public interface RDBStoredProcedureCaller {
-        Task<AsaphDbQueryResult<RecordModel>> QueryStoredProcedure<RecordModel>(
+        Task<AsaphStorageReadResult<RecordModel>> QueryStoredProcedure<RecordModel>(
             string procedureName, IDbConnection connection, object parameters = null);
     }
 
@@ -21,13 +21,15 @@ namespace Asaph.InterfaceLibrary.ServiceCallers.Databases {
             string dbName, string tableName, DocumentModel document) where DocumentModel : class;
         Task<AsaphOperationResult> Insert<DocumentModel>(
             string dbName, string tableName, IEnumerable<DocumentModel> documents) where DocumentModel : class;
+        Task<AsaphStorageReadResult<DocumentModel>> Read<DocumentModel>(
+            string dbName, string tableName) where DocumentModel : class;
     }
 
     public interface DatabaseConnectionProvider {
         IDbConnection AsaphDb();
     }
 
-    public interface AsaphDbQueryResult<Model> : AsaphOperationResult {
+    public interface AsaphStorageReadResult<Model> : AsaphOperationResult {
         IEnumerable<Model> Records { get; }
     }
 }

@@ -24,7 +24,7 @@ namespace Asaph.Implementations.AppManagement.RecordRevisions.Implementations {
         public Task<AsaphOperationResult> Save<Model>(IEnumerable<RecordRevision<Model>> revisions) where Model : class {
             return Task.Run<AsaphOperationResult>(() => {
                 try {
-                    Task<AsaphDbQueryResult<RecordRevisionDbModel>> dbRequest =
+                    Task<AsaphStorageReadResult<RecordRevisionDbModel>> dbRequest =
                         databaseServicesFactory
                         .StoredProcedureCaller()
                         .QueryStoredProcedure<RecordRevisionDbModel>(
@@ -41,7 +41,7 @@ namespace Asaph.Implementations.AppManagement.RecordRevisions.Implementations {
                                     EncodedData = RevisionDataEncoder.Encode(revisionRecord.RecordData),
                                 }).ToDataTable(),
                             });
-                    AsaphDbQueryResult<RecordRevisionDbModel> queryReadResult = dbRequest.Result;
+                    AsaphStorageReadResult<RecordRevisionDbModel> queryReadResult = dbRequest.Result;
                     if (queryReadResult.HasFailureStatus())
                         return new GeneralAsaphOperationResult() {
                             Status = queryReadResult.Status,

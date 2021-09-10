@@ -6,6 +6,9 @@ using System.Data;
 
 namespace Asaph.Shared.ExtensionMethods {
     public static class AsaphExtensionMethods {
+        public static DateTime RoundToSeconds(this DateTime dateTime) =>
+            new(dateTime.Year, dateTime.Month, dateTime.Day, dateTime.Hour, dateTime.Minute, dateTime.Second);
+
         public static DataTable ToDataTable<T>(this IEnumerable<T> data) => data.ToList().ToDataTable();
 
         private static DataTable ToDataTable<T>(this IList<T> data) {
@@ -26,6 +29,5 @@ namespace Asaph.Shared.ExtensionMethods {
             }
             return table;
         }
-
     }
 }

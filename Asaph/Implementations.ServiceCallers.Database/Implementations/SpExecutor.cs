@@ -11,9 +11,9 @@ using Dapper;
 
 namespace Asaph.Implementations.ServiceCallers.Database.Implementations {
     internal class SpExecutor : RDBStoredProcedureCaller {
-        public Task<AsaphDbQueryResult<Model>> QueryStoredProcedure<Model>(
+        public Task<AsaphStorageReadResult<Model>> QueryStoredProcedure<Model>(
             string procedureName, IDbConnection connection, object parameters = null) {
-            return Task.Run<AsaphDbQueryResult<Model>>(() => {
+            return Task.Run<AsaphStorageReadResult<Model>>(() => {
                 try {
                     Stopwatch stopwatch = Stopwatch.StartNew();
                     stopwatch.Start();
@@ -26,12 +26,12 @@ namespace Asaph.Implementations.ServiceCallers.Database.Implementations {
                             commandType: CommandType.StoredProcedure);
                     }
                     stopwatch.Stop();
-                    return new AsaphDbQueryResultForDapper<Model>(
+                    return new GeneralStorageResult<Model>(
                         status: OperationStatus.Success,
                         message: $"SP [ {procedureName} ] executed in [ {stopwatch.ElapsedMilliseconds} ] ms",
                         records: databaseRecords);
                 } catch (Exception ex) {
-                    return new AsaphDbQueryResultForDapper<Model>(
+                    return new GeneralStorageResult<Model>(
                         status: OperationStatus.Failure,
                         message: $"SP [ {procedureName} ] failed to execute [ {ex.Message} ]");
                 }

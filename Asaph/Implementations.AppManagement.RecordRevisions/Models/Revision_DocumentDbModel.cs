@@ -2,10 +2,12 @@
 
 using Asaph.InterfaceLibrary.RecordRevisions;
 
+using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 namespace Asaph.Implementations.AppManagement.RecordRevisions.Models {
     internal class Revision_DocumentDbModel<Model> where Model : class {
+        public Revision_DocumentDbModel() { }
         public Revision_DocumentDbModel(RecordRevision<Model> revision) {
             Guid = revision.Guid;
             TenantId = revision.TenantId;
@@ -17,6 +19,8 @@ namespace Asaph.Implementations.AppManagement.RecordRevisions.Models {
         }
 
         [BsonId]
+        public ObjectId Id { get; set; }
+
         public Guid Guid { get; set; }
         public Guid TenantId { get; set; }
         public string Type { get; set; }
