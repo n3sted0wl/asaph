@@ -12,6 +12,8 @@ namespace Asaph.Implementations.ServiceCallers.Database {
 
         public DatabaseConnectionProvider ConnectionProvider() => new DbConnectionProvider(configuration);
 
-        public DatabaseStoredProcedureCaller StoredProcedureCaller() => new SpExecutor();
+        public RDBStoredProcedureCaller StoredProcedureCaller() => new SpExecutor();
+
+        public DocDbCaller DocDbCaller() => new DocumentDatabaseCaller();
     }
 }

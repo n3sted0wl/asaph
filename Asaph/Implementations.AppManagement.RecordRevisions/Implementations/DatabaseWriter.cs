@@ -11,10 +11,10 @@ using Asaph.Shared.ExtensionMethods;
 using Asaph.Implementations.Shared;
 
 namespace Asaph.Implementations.AppManagement.RecordRevisions.Implementations {
-    internal class RevisionsWriter : AsaphRevisionsWriter {
+    internal class DatabaseRevisionsWriter : AsaphRevisionsWriter {
         private readonly DatabaseServicesFactory databaseServicesFactory;
 
-        public RevisionsWriter(DatabaseServicesFactory databaseServicesFactory) {
+        public DatabaseRevisionsWriter(DatabaseServicesFactory databaseServicesFactory) {
             this.databaseServicesFactory = databaseServicesFactory;
         }
 

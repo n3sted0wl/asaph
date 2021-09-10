@@ -12,33 +12,36 @@ using Microsoft.Extensions.Configuration;
 using MySql.Data.MySqlClient;
 
 namespace Asaph.Implementations.ServiceCallers.Database.Implementations {
+    internal enum ConnectionStringNames {
+        Asaph,
+    }
+
     internal class DbConnectionProvider : DatabaseConnectionProvider {
-        private readonly IDictionary<string, ConnectionStringConfiguration> connectionStringsByName;
+        private readonly IDictionary<ConnectionStringNames, ConnectionStringConfiguration> connectionStringsByName;
         public DbConnectionProvider(IConfiguration configuration) {
-            ConnectionStringConfiguration[] connectionStrings =
-                configuration.GetSection("ConnectionStrings").Get<ConnectionStringConfiguration[]>();
+            IConfiguration connectionStringsConfigSection = configuration.GetSection("ConnectionStrings");
+            ConnectionStringNames[] names = (ConnectionStringNames[])Enum.GetValues(typeof(ConnectionStringNames));
             this.connectionStringsByName =
-                connectionStrings
-                .GroupBy(connectionString => connectionString.Name, StringComparer.OrdinalIgnoreCase)
-                .Select(group => group.First())
+                names
                 .ToDictionary(
-                    keySelector: connectionString => connectionString.Name,
-                    elementSelector: connectionString => connectionString,
-                    comparer: StringComparer.OrdinalIgnoreCase);
+                    keySelector: connectionStringName => connectionStringName,
+                    elementSelector: connectionName =>
+                        connectionStringsConfigSection
+                        .GetSection(connectionName.ToString())
+                        .Get<ConnectionStringConfiguration>());
 
             DbProviderFactories.RegisterFactory("System.Data.SqlClient", SqlClientFactory.Instance);
             DbProviderFactories.RegisterFactory("System.Data.MySqlClient", MySqlClientFactory.Instance);
         }
 
         internal class ConnectionStringConfiguration {
-            public string Name { get; set; } = string.Empty;
             public string Provider { get; set; } = string.Empty;
             public string ConnectionString { get; set; } = string.Empty;
         }
 
-        public IDbConnection AsaphDb() => _getDbConnection("Asaph");
+        public IDbConnection AsaphDb() => _getDbConnection(ConnectionStringNames.Asaph);
 
-        internal IDbConnection _getDbConnection(string connectionName) {
+        internal IDbConnection _getDbConnection(ConnectionStringNames connectionName) {
             if (!connectionStringsByName.TryGetValue(key: connectionName, out ConnectionStringConfiguration configuration)) 
                 throw new Exception($"No DB config found for DB with Name [ {connectionName} ]");
             IDbConnection connection = DbProviderFactories.GetFactory(configuration.Provider).CreateConnection();

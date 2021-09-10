@@ -29,7 +29,7 @@ namespace Asaph.Implementation.DependencyInjectors {
     public class AsaphAppManagementInjector : InjectorsBaseClass, AppManagementInjector {
         public AsaphAppManagementInjector(IConfiguration configuration) : base(configuration) { }
 
-        public AsaphRevisionsFactory RevisionsFactory() => new RevisionsFactory(DatabaseServicesFactory());
+        public AsaphRevisionsFactory RevisionsFactory() => new DocumentDbRevisionsFactory(DatabaseServicesFactory());
     }
 
     public class AsaphSongManagementBusinessRulesInjector : InjectorsBaseClass, SongTitlesAppInjector {

@@ -11,10 +11,10 @@ using Asaph.InterfaceLibrary.Shared;
 using Asaph.Shared.ExtensionMethods;
 
 namespace Asaph.Implementations.AppManagement.RecordRevisions.Implementations {
-    internal class RevisionsReader : AsaphRevisionsReader {
+    internal class DatabaseRevisionsReader : AsaphRevisionsReader {
         private readonly DatabaseServicesFactory databaseServicesFactory;
 
-        public RevisionsReader(DatabaseServicesFactory databaseServicesFactory) {
+        public DatabaseRevisionsReader(DatabaseServicesFactory databaseServicesFactory) {
             this.databaseServicesFactory = databaseServicesFactory;
         }
 

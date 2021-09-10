@@ -10,7 +10,7 @@ using Asaph.InterfaceLibrary.Shared;
 using Dapper;
 
 namespace Asaph.Implementations.ServiceCallers.Database.Implementations {
-    internal class SpExecutor : DatabaseStoredProcedureCaller {
+    internal class SpExecutor : RDBStoredProcedureCaller {
         public Task<AsaphDbQueryResult<Model>> QueryStoredProcedure<Model>(
             string procedureName, IDbConnection connection, object parameters = null) {
             return Task.Run<AsaphDbQueryResult<Model>>(() => {
